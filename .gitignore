@@ -41,3 +41,5 @@ jspm_packages/
 .cache
 
 build
+# Local Netlify folder
+.netlify
