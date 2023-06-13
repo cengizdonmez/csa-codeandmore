@@ -48,7 +48,7 @@
     "@ant-design/pro-layout": "^6.3.0",
     "@ant-design/pro-provider": "^2.0.12",
     "@ant-design/pro-table": "^3.1.0",
-    "@ant-design/pro-utils": "0.0.5",
+    "@ant-design/pro-utils": "^2.11.5",
     "@tinymce/tinymce-react": "^4.2.0",
     "@types/array-move": "^2.0.0",
     "@types/jsonwebtoken": "^8.5.0",
