@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+
+# Output of 'npm pack'
+*.tgz
+
+# production
+/dist
+/.vscode
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+.eslintcache
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+build

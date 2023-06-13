@@ -1,0 +1,93 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.ant-pro-global-header-layout-mix {
+  background: white !important;
+}
+
+.ant-pro-global-header-layout-mix .ant-pro-global-header-logo h1 {
+  color: black !important;
+  font-weight: 400 !important;
+  font-size: 1.25rem !important;
+}
+
+.ant-pro-global-header-layout-mix .anticon {
+  color: black !important;
+}
+
+.ant-pro-global-header-logo a img {
+  height: 38px !important;
+}
+
+.dark___1NwCY .action___LP4_P:hover {
+  background: orange !important;
+}
+
+// 兼容IE11
+@media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body .ant-design-pro > .ant-layout {
+    min-height: 100vh;
+  }
+}
+
+
+.ant-layout-sider {
+  padding-top: 63px !important;
+}
+
+.ant-pro-fixed-header, .ant-layout-header {
+  height: 65px !important;
+}
+.ck-editor__editable {
+  min-height: 300px;
+}
+.ck-editor__editable_inline {
+  min-height: 300px;
+}

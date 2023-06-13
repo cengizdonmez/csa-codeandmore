@@ -1,0 +1,47 @@
+{
+  "GroupModule": [
+    {
+      "id": 1,
+      "title": "Doktorlar",
+      "permissions": {
+        "create": true,
+        "list": false,
+        "edit": true,
+        "delete": false
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Merkezler",
+      "permissions": {
+        "create": false,
+        "list": false,
+        "edit": true,
+        "delete": false
+      }
+    },
+
+    {
+      "id": 3,
+      "title": "Tıbbi Birimler",
+      "permissions": {
+        "create": false,
+        "list": true,
+        "edit": true,
+        "delete": false
+      }
+    },
+
+    {
+      "id": 4,
+      "title": "Sayfalar",
+      "permissions": {
+        "create": true,
+        "list": false,
+        "edit": true,
+        "delete": true
+      }
+    }
+  ]
+}

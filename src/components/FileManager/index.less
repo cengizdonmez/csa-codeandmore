@@ -1,0 +1,65 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0px 0px 3px #de4500;
+  }
+  &:active {
+    box-shadow: 0px 0px 1px #de4500;
+  }
+  & > img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+.Item {
+  width: 150px;
+  min-height: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  user-select: none;
+  &:hover {
+    box-shadow: 0px 0px 3px #de4500;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  & > div {
+    padding: 5px;
+    font-size: 11px;
+    color: grey;
+  }
+}
+
+.ItemContainer {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.ImgFluid {
+  width: auto;
+  max-width: 100%;
+  height: 70px;
+}
+
+.ContentContainer {
+  display: flex;
+}
+
+.FolderBar {
+  min-width: 200px;
+  margin-right: 10px;
+}

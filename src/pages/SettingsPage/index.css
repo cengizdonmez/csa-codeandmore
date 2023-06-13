@@ -1,0 +1,21 @@
+.sortable-list {
+
+}
+
+.sortable-item {
+  display: block;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 1px;
+  margin-bottom: 5px;
+  cursor: grab;
+}
+
+.sortable-item:hover {
+}
+
+.item-button {
+  flex: 1;
+}

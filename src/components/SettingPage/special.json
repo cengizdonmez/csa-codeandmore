@@ -1,0 +1,40 @@
+{
+  "theme_setting": [
+    {
+      "title": "Ana Sayfa Üst Bilgi Mesajı",
+      "setting": [
+        {
+          "description": "",
+          "title": "Kapalı / Açık",
+          "status": true,
+          "item": null,
+          "key": "üst_bilgi_mesajı_durum",
+          "value": true,
+          "itemtype": "checkbox"
+        },
+        {
+          "description": "",
+          "title": "İçerik",
+          "status": true,
+          "item": null,
+          "key": "üst_bilgi_mesajı_icerik",
+          "value": "Buraya yeni içerik",
+          "itemtype": "textbox"
+        },
+        {
+          "description": "",
+          "title": "Link",
+          "status": true,
+          "item": null,
+          "key": "üst_bilgi_mesajı_link",
+          "value": "suhauzun.com",
+          "itemtype": "textbox"
+        }
+      ],
+      "status": true,
+      "key": "ana_sayfa_ust_bilgi_mesajı_setting",
+      "type": "form",
+      "hidden": false
+    }
+  ]
+}
