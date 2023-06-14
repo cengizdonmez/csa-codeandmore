@@ -44,3 +44,8 @@ npm run lint:fix
 ```bash
 npm test
 ```
+
+
+```bash
+Degisilik Test
+```
