@@ -4,6 +4,9 @@
   functions = "netlify/functions"
   publish = "dist/"
 
+[deploy]
+  command = "netlify deploy --prod"
+
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
